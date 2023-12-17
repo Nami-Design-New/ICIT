@@ -168,6 +168,9 @@ $text-gradiant: linear-gradient(-272.54deg, #c9258d 12.86%, #174a8b 68.06%);
               width: 100px;
               @include centerFlex();
             }
+            @media (max-width:768px) {
+              height: 60px;
+            }
           }
         }
       }
@@ -747,7 +750,7 @@ main {
       background-clip: text;
       -webkit-text-fill-color: transparent;
     }
-    @media (max-width:576px) {
+    @media (max-width: 576px) {
       font-size: 28px;
       line-height: 40px;
     }
@@ -1262,6 +1265,9 @@ button {
 }
 .contact {
   padding: 60px 0;
+  .row {
+    margin: 0 auto;
+  }
   @media (max-width: 768px) {
     padding: 40px 0;
     @include centerFlex();
