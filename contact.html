@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable= no shrink-to-fit= no">
+    <title>ICIT - الابداع المتكامل لتقنية المعلومات</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/fav.svg">
+    <!-- required css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/leaflet.css">
+    <link rel="stylesheet" href="assets/css/styleAr.css">
+</head>
+
+<body>
+    <!-- preloader -->
+    <div class="preloader">
+        <div class="preloaderImg"></div>
+    </div>
+    <!-- header -->
+    <nav class="header">
+        <div class="container d-flex">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/img/logoV.svg" alt="logo">
+                </a>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li class="nav-link active">
+                        <a href="index.html">الرئيسية</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="about.html">من نحن</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="works.html">أعمالنا</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="contact.html">تواصل معنا</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="btns">
+                <button class="lang_toggler">
+                    EN <i class="fa-sharp fa-regular fa-language"></i>
+                </button>
+                <div class="toogler">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- main-wrapper -->
+    <main class="content">
+        <!-- ======= page-header  -->
+        <div class="section-header">
+            <h1>تواصل معنا</h1>
+            <h6><a href="index.html">الرئيسية</a> / تواصل معنا</h6>
+        </div>
+        <section class="contact">
+            <div class="container">
+                <div class="form">
+                    <div class="row">
+                        <div class="col-lg-4 col-12 mb-lg-0 mb-3">
+                            <div class="contact_info">
+                                <h3>ابقى على تواصل معنا</h3>
+                                <ul>
+                                    <li class="field">
+                                        <div class="icon">
+                                            <i class="fa-light fa-map-location-dot"></i>
+                                        </div>
+                                        <div class="text">
+                                            <h4>موقعنا : </h4>
+                                            <p>
+                                                الابداع المتكامل لتقنية المعلومات حي الفيصلية طريق الملك فهد جدة
+                                                المملكة العربية السعودية</p>
+                                        </div>
+                                    </li>
+                                    <li class="field">
+                                        <div class="icon">
+                                            <i class="fa-sharp fa-light fa-envelope"></i>
+                                        </div>
+                                        <div class="text">
+                                            <h4>البريد الالكترونى : </h4>
+                                            <a href="mailto:info@icit-sa.com">info@icit-sa.com</a>
+                                        </div>
+                                    </li>
+                                    <li class="field">
+                                        <div class="icon">
+                                            <i class="fa-light fa-phone"></i>
+                                        </div>
+                                        <div class="text">
+                                            <h4>الهاتف : </h4>
+                                            <a href="tel:+966564741999">+966564741999</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-12">
+                            <form action="">
+                                <div class="form-group">
+                                    <!-- field-set -->
+                                    <div class="inputfield">
+                                        <label for="name"><i class="fa-light fa-user"></i> اسمك كاملاً</label>
+                                        <input type="text" id="name" name="name" onfocus="highlight(this)"
+                                            onblur="dehighlight(this)">
+                                        <span class="highlight"></span>
+                                    </div>
+                                    <!-- field-set -->
+                                    <div class="inputfield">
+                                        <label for="email"><i class="fa-light fa-envelope"></i> البريد
+                                            الالكترونى</label>
+                                        <input type="email" id="email" name="email" onfocus="highlight(this)"
+                                            onblur="dehighlight(this)">
+                                        <span class="highlight"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <!-- field-set -->
+                                    <div class="inputfield">
+                                        <label for="phone"><i class="fa-light fa-phone"></i> رقم الجوال</label>
+                                        <input type="tel" id="phone" name="phone" onfocus="highlight(this)"
+                                            onblur="dehighlight(this)">
+                                        <span class="highlight"></span>
+                                    </div>
+                                    <!-- field-set -->
+                                    <div class="inputfield">
+                                        <label for="subject"><i class="fa-regular fa-comment-dots"></i>
+                                            الموضوع</label>
+                                        <input type="text" id="subject" name="subject" onfocus="highlight(this)"
+                                            onblur="dehighlight(this)">
+                                        <span class="highlight"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <!-- field-set -->
+                                    <div class="inputfield">
+                                        <label for="message" class="message-label"><i
+                                                class="fa-light fa-feather-pointed"></i> رسالتك
+                                        </label>
+                                        <textarea name="message" id="message" onfocus="highlight(this)"
+                                            onblur="dehighlight(this)"></textarea>
+                                        <span class="highlight"></span>
+                                    </div>
+                                </div>
+                                <button type="submit">إرسال <i class="fa-sharp fa-light fa-paper-plane"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- *** map *** -->
+        <section class="map" style="margin-bottom: -12px;">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14903546.801014509!2d45.0741!3d24.222142!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6670f265083e3c25%3A0x657cd15661b81545!2z2KfZhNin2KjYr9in2Lkg2KfZhNmF2KrZg9in2YXZhCDZhNiq2YLZhtmK2Kkg2KfZhNmF2LnZhNmI2YXYp9iq!5e0!3m2!1sar!2seg!4v1702805989714!5m2!1sar!2seg"
+                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12 mb-lg-0 mb-4">
+                    <div class="d-flex flex-column flex-lg-row gap-lg-0 gap-3">
+                        <div class="logo">
+                            <img src="assets/img/logo.svg" alt="">
+                        </div>
+                        <div>
+                            <p class="about">
+                                الابداع المتكامل لتقنية المعلومات هي شركة تطوير برمجيات ديناميكية ومبتكرة. نحن متخصصون
+                                في
+                                إنشاء
+                                حلول متطورة تدفع النمو والكفاءة والنجاح للشركات عبر الصناعات.
+                            </p>
+                            <ul class="social-media">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <h3 class="head">ابقى على اتصال معنا</h3>
+                    <div class="contacts">
+                        <li>
+                            <i class="fa-light fa-location-dot"></i>
+                            حي الفيصلية طريق الملك فهد جدة المملكة العربية السعودية
+                        </li>
+                        <li>
+                            <i class="fa-light fa-envelope"></i> <a href="mailto:info@icit-sa.com">info@icit-sa.com</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone-volume"></i> <a href="tel:+966564741999">+966564741999</a>
+                        </li>
+                    </div>
+                </div>
+                <div class="col-12 copyrights">
+                    <p>Copyright © 2023 All rights reserved by ICIT.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/isotope.pkgd.min.js"></script>
+<script src="assets/js/leaflet.js"></script>
+<script src="assets/js/custom.js"></script>
+
+
+</html>
